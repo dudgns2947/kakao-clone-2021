@@ -1,5 +1,4 @@
 .user-component {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -14,6 +13,12 @@
   height: 70px;
   border-radius: 25px;
   margin-right: 20px;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+  color: black;
 }
 
 .user-component__subtitle {
@@ -42,12 +47,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
-
-.user-component__title {
-  font-weight: 600;
-  font-size: 22px;
-  color: black;
 }
 
 .user-component__time {
