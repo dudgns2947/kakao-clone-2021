@@ -54,3 +54,17 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__more {
+  display: inline;
+  position: relative;
+}
+
+.user-component__pointing {
+  color: red;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 1px solid red;
+  opacity: 0.8;
+  position: absolute;
+}
