@@ -104,6 +104,10 @@
   margin-left: 3px;
 }
 
+.open-post__heart-count:hover {
+  color: tomato;
+}
+
 .find__news {
   position: relative;
   display: inline-block;
